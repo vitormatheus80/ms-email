@@ -12,6 +12,7 @@
 * Lombok
 * MySql
 * Java Email Sender
-
+* Mensageria
+* RabbitMQ
 
 <em>Desenvolvido por: Vitor Almeida</em>
