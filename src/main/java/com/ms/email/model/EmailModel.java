@@ -1,11 +1,11 @@
 package com.ms.email.model;
-
-import com.ms.email.enums.StatusEmail;
+import com.ms.email.model.enums.StatusEmail;
 import jakarta.persistence.*;
 import lombok.Data;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Data
 @Entity
@@ -16,7 +16,7 @@ public class EmailModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long emailID;
+    private UUID emailID;
 
     private String ownerRef;
 
